@@ -8,16 +8,16 @@ public class XYZReturnPrograms {
 
 		if (First.length() != Last.length()) {
 
-			System.out.println("Second Value is not a rotation of first Value");
+			System.out.println("False");
 		}
 
 		else {
 
 			First = First.concat(First);
 			if (First.indexOf(Last) != -1)
-				System.out.println("Second Value is a rotation of first Value");
+				System.out.println("True");
 			else
-				System.out.println("Second Value is not a rotation of first Value");
+				System.out.println("False");
 		}
 	}
 }

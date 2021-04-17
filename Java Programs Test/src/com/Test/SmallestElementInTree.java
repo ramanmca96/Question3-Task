@@ -43,14 +43,14 @@ public class SmallestElementInTree {
 
 	public static void main(String[] args) {  
 	  
-		SmallestElementInTree bt = new SmallestElementInTree();  
+		SmallestElementInTree treeObj = new SmallestElementInTree();  
 	         
-	        bt.root = new Node(4);  
-	        bt.root.left = new Node(2);  
-	        bt.root.right = new Node(3);  
-	        bt.root.left.left = new Node(1);  
-	        bt.root.right.left = new Node(5);  
-	        bt.root.right.right = new Node(6);  
+	        treeObj.root = new Node(10);  
+	        treeObj.root.left = new Node(20);  
+	        treeObj.root.right = new Node(30);  
+	        treeObj.root.left.left = new Node(40);  
+	        treeObj.root.right.left = new Node(50);  
+	        treeObj.root.right.right = new Node(60);  
 	  
 	          
 	        System.out.println(" Smallest element:" + bt.smallestElement(bt.root));  

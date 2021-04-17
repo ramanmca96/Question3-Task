@@ -53,7 +53,7 @@ public class SmallestElementInTree {
 	        treeObj.root.right.right = new Node(60);  
 	  
 	          
-	        System.out.println(" Smallest element:" + bt.smallestElement(bt.root));  
+	        System.out.println(" Smallest element:" + treeObj.smallestElement(treeObj.root));  
 	      
 }
 	
